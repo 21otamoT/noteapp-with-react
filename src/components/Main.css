@@ -1,0 +1,51 @@
+.noActive {
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.main {
+  width: 70%;
+  height: 100vh;
+}
+
+.mainNoteEdit,
+.mainNotePreview {
+  height: 50vh;
+}
+
+.mainNoteEdit {
+  padding: 24px;
+}
+
+.mainNoteEdit input, textarea {
+  display: block;
+  border: 1px solid #ddd;
+  margin-bottom: 24px;
+  width: 100%;
+  height: calc(50vh - 120px);
+  padding: 4px;
+  font-size: 16px;
+}
+
+.mainNoteEdit input {
+  height: 50px;
+  font-size: 2rem;
+}
+
+.mainNotePreview {
+  border-top: 1px solid #ddd;
+  overflow-y: scroll;
+  background-color: rgba(255, 255, 255, 20%);
+}
+
+.previewTitle {
+  padding-left: 16px;
+}
+
+.markdownPreview {
+  padding-left: 16px;
+}

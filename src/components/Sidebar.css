@@ -1,0 +1,52 @@
+button {
+  border: 1px solid blue;
+  color: skyblue;
+}
+
+.delete {
+  color: red;
+}
+
+.sidebar {
+  width: 30%;
+  height: 100vh;
+  border-right: 1px solid #ddd;
+}
+
+.sidebarHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.sidebarHeader h1 {
+  margin: 0;
+}
+
+.sidebarNotes {
+  height: calc(100vh - 78px);
+  overflow-y: scroll;
+}
+
+.sidebarNotes:hover {
+  background-color: #999;
+}
+
+.active {
+  background-color: #999;
+}
+
+.sodebarNote {
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sodebarNotes > p {
+  margin: 10px 0;
+}
+
+.sodebarNotes > small {
+  color: #999;
+}
